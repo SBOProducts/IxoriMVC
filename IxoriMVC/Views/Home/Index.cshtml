@@ -1,0 +1,181 @@
+﻿@using Prototyping.Ipsum;
+@using Prototyping.Placeholdit;
+<div class="row large-collapse">
+    <div class="small-12 columns text-center">
+        @Html.Placehold(1000, 400, "Banner")
+    </div>
+</div>
+
+<div class="row large-collapse">
+    <div class="small-12 columns text-center">
+        @Html.Ipsum().h1(5)
+        @Html.Ipsum().h5(15)
+    </div>
+</div>
+
+
+<div class="row large-collapse">
+    <div class="small-6 columns text-center">
+        @Html.Placehold(200, 200)
+        @Html.Ipsum().h2(4)
+    </div>
+    <div class="small-6 columns text-center">
+        @Html.Placehold(200, 200)
+        @Html.Ipsum().h2(4)
+    </div>
+</div>
+
+<div class="row large-collapse">
+    <div class="small-6 columns">
+        @Html.Ipsum().p()
+    </div>
+    <div class="small-6 columns">
+        @Html.Ipsum().p()
+    </div>
+</div>
+
+<div class="row large-collapse">
+    <div class="small-12 columns text-center">
+        <hr />
+        @Html.Ipsum().h1(5)
+        @Html.Ipsum().h5(15)
+    </div>
+</div>
+
+
+<div class="row large-collapse">
+    @for(int i = 0; i<4; i++){
+    <div class="small-6 medium-2 large-3 columns">
+        @Html.Placehold(250, 150)
+        @Html.Ipsum().h2(3)
+        @Html.Ipsum().p()
+    </div>
+    }
+</div>
+
+
+
+
+
+<div class="row"><hr class="large-8 large-centered columns" /></div>
+@for(int i = 0; i<3; i++){
+<div class="row">
+    <div class="large-2 columns large-push-2">
+        @Html.Placehold(250, 250)
+    </div>
+    <div class="large-6 columns large-pull-2">
+        @Html.Ipsum().h3(5)
+        @Html.Ipsum().p(1, 4)
+    </div>
+</div>
+<div class="row"><hr class="large-8 large-centered columns" /></div>
+}
+
+
+
+
+
+<div class="row large-collapse">
+    <div class="small-12 columns text-center">
+        @Html.Ipsum().h1(5)
+        @Html.Ipsum().h5(15)
+
+        @Html.Placehold(1000, 400, "Permitting and Compliance")
+    </div>
+</div>
+
+<div class="row large-collapse">
+    <div class="small-12 columns text-center">
+        @Html.Ipsum().h1(5)
+        @Html.Ipsum().h5(15)
+        
+    </div>
+</div>
+
+<div class="row">
+    @for(int i=0; i<6; i++)
+    {
+    <div class="large-2 columns">
+        @Html.Placehold(200, 50)
+    </div>
+    }
+</div>
+
+<div class="row"><hr class="small-12 columns"/></div>
+       
+
+@*
+<div class="row">
+    <div class="small-12 columns">
+        
+        <p>
+            Our mission is to develop innovative software solutions that help our clients succeed in the rapidly evolving world of technology. 
+        </p>
+
+        <strong>What we do</strong>
+        <ul>
+            <li>Online Permitting and Compliance Software</li>
+            <li>Mobile Application Development</li>
+            <li>CMS</li>
+            <li>Custom Solutions</li>
+        </ul>
+
+        <strong>Why Ixori</strong>
+        <ul>
+            <li>proven approach</li>
+            <li>expertise</li>
+            <li>honesty and reliability</li>
+        </ul>
+    </div>
+</div>
+*@
+
+@*
+<div class="slick">
+    <div class="banner coal">
+        <div class="shade">
+            <div class="row">
+                <div class="small-12 columns">
+                    <h1 class="subject">Permitting <span class="ampersand">&amp;</span> Compliance</h1>
+                    <hr />
+                    <h4>Permitting &amp; Compliance software to automate your permitting approval process based on your rules.</h4>
+
+                    <p>Our system boasts the following features:</p>
+                    <ul>
+                        <li>Document management</li>
+                        <li>Workflow automation</li>
+                        <li>Deficiency tracking</li>
+                        <li>Letter generation</li>
+                        <li>Rule enforcement</li>
+                        <li><a href="#">learn more...</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="banner apps">
+        <div class="shade">
+            <div class="row">
+                <div class="small-12 columns">
+
+                    <h1 class="subject">Custom Software</h1>
+                    <hr />
+                    <p></p>
+                    <ul>
+                        <li>Document management</li>
+                        <li>Workflow automation</li>
+                        <li>Deficiency tracking</li>
+                        <li>Letter generation</li>
+                        <li>Rule enforcement</li>
+                        <li><a href="#">learn more...</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+*@

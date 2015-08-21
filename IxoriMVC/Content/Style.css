@@ -1,0 +1,126 @@
+﻿/*DESKTOP / Tablet
+--------------------------------------------------------------------------------*/
+@media only screen and (min-width : 999px) {
+    
+    h1{font: 40px/50px 'Julius Sans One', Helvetica, sans-serif;}
+    h2{font: 30px/40px 'Julius Sans One', Helvetica, sans-serif;}
+    h3{font: 20px/30px 'Julius Sans One', Helvetica, sans-serif;}
+    h4{font: 10px/20px 'Julius Sans One', Helvetica, sans-serif;}
+
+    
+    ul{
+        margin-left:40px;
+    }
+        
+    p, li 
+    {
+        font: 16px/24px 'Crimson Text', Georgia, serif;
+        letter-spacing: 0.015em;
+    }
+
+    footer {
+    
+    }
+
+    .banner {
+        width: 100%;
+        margin:0;
+        background-attachment: scroll;
+        background-size:cover;
+        min-height:400px;
+    }
+
+    .banner * {
+        color:#fff;
+    }
+
+    .banner .shade
+    {
+        width:100%;
+        opacity: 0.65; 
+        filter: alpha(opacity=65);   
+        min-height:400px;
+    }
+
+    .banner.coal {
+        background-image: url(/Content/images/banners/Coal3.jpg);
+    }
+
+    .banner.coal .shade{
+        background-color: #7aafdc;
+    }
+
+    .banner.apps {
+        background-image: url(/Content/images/banners/Computer1.jpg);
+    }
+
+    .banner.apps .shade{
+        background-color: #e6c562;
+        background-color: #d59d0d;
+    }
+
+    .subject 
+    {
+        text-transform: uppercase;
+        margin: 20px auto;
+    }
+
+    
+}
+
+
+
+
+/* MOBILE
+--------------------------------------------------------------------------------*/
+ @media only screen and (min-width : 100px) and (max-width : 998px)
+ {
+ 
+    ul{
+        
+    }
+        
+    p, li 
+    {
+        font: 16px/24px 'Crimson Text', Georgia, serif;
+        letter-spacing: 0.015em;
+        color:#fff;
+    }
+
+    footer {
+        
+    }
+    
+    .banner{
+        width: 100%;
+        margin:0;
+        padding:0;
+    }
+
+    .banner *{
+        color:#fff;
+    }
+
+    .banner.coal{
+       background-color: #7aafdc;
+       background-image:none;
+    }
+
+    .banner.apps{
+        background-color: #d59d0d;
+        background-image:none;
+    }
+
+    .subject 
+    {
+        font: 30px/40px 'Julius Sans One', Helvetica, sans-serif;
+        text-transform: uppercase;
+        color: #fff;
+        text-align:center;
+    }
+
+
+
+
+   
+}

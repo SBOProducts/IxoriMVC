@@ -1,0 +1,20 @@
+﻿@using Prototyping.Ipsum;
+@using Prototyping.Placeholdit;
+
+
+
+<div class="row large-collapse">
+    <div class="small-12 columns">
+        
+    </div>
+</div>
+
+<div class="row">
+    @for (int i = 0; i < 4; i++)
+    {
+        <div class="large-3 columns">
+            @Html.Ipsum().ul()
+        </div>
+    }
+
+</div>

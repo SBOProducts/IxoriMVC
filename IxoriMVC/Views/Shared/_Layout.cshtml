@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8" />
+
+    @*Set the viewport width to device width for mobile *@
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>@ViewBag.Title - Welcome to Foundation</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <link href='http://fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
+
+    <!-- CSS -->
+    <link href="@Url.Content("/Content/Style.css")" rel="stylesheet" />
+
+    <!-- Slick -->
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/slick/slick.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/slick/slick-theme.css")" />
+    
+    @Styles.Render("~/Content/foundation/css")
+
+    @RenderSection("head", required: false)
+    @Scripts.Render("~/bundles/modernizr")
+
+
+
+</head>
+<body>
+
+    @{ Html.RenderPartial("MainNavigation"); }
+
+    <div id="wrapper">
+        @RenderBody()
+    </div>
+
+    @{ Html.RenderPartial("Footer"); }
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/foundation")
+    <script>
+        $(document).foundation();
+    </script>
+    @*Use the Scripts section to define page specific scripts*@
+    @RenderSection("scripts", required: false)
+</body>
+</html>
