@@ -74,7 +74,6 @@ C:\Users\Nathan\Documents\GitHub\ixori\code\website\mvc\IxoriMVC\IxoriMVC\bin\ko
 C:\Users\Nathan\Documents\GitHub\ixori\code\website\mvc\IxoriMVC\IxoriMVC\bin\ru\System.Spatial.resources.dll
 C:\Users\Nathan\Documents\GitHub\ixori\code\website\mvc\IxoriMVC\IxoriMVC\bin\zh-Hans\System.Spatial.resources.dll
 C:\Users\Nathan\Documents\GitHub\ixori\code\website\mvc\IxoriMVC\IxoriMVC\bin\zh-Hant\System.Spatial.resources.dll
-C:\Users\Nathan\Documents\GitHub\ixori\code\website\mvc\IxoriMVC\IxoriMVC\obj\Debug\IxoriMVC.csprojResolveAssemblyReference.cache
 C:\Users\Nathan\Documents\GitHub\ixori\code\website\mvc\IxoriMVC\IxoriMVC\obj\Debug\IxoriMVC.dll
 C:\Users\Nathan\Documents\GitHub\ixori\code\website\mvc\IxoriMVC\IxoriMVC\obj\Debug\IxoriMVC.pdb
 C:\Users\Nathan\Documents\GitHub\ixori\code\website\mvc\IxoriMVC\IxoriMVC\bin\NLipsum.Core.dll

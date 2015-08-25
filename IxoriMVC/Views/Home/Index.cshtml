@@ -1,37 +1,42 @@
 ﻿@using Prototyping.Ipsum;
 @using Prototyping.Placeholdit;
 <div class="row large-collapse">
-    <div class="small-12 columns text-center">
-        @Html.Placehold(1000, 400, "Banner")
-    </div>
-</div>
-
-<div class="row large-collapse">
-    <div class="small-12 columns text-center">
-        @Html.Ipsum().h1(5)
-        @Html.Ipsum().h5(15)
+    <div class="small-12 columns text-center" id="RotatingBanner">
+        <img src="@Url.Content("~/Images/Banners/Banner1.jpg")" alt="Banner" />
+        <h1>Permitting &amp; Compliance</h1>
+        <h5>Organize your permits and automate your workflow</h5>
+        <h5 class="subheader emphasis">... in less time with better results</h5>
     </div>
 </div>
 
 
-<div class="row large-collapse">
-    <div class="small-6 columns text-center">
-        @Html.Placehold(200, 200)
-        @Html.Ipsum().h2(4)
+<div class="banner banner-one">
+<div class="row">
+    <div class="small-12 large-4 columns text-center">
+        <img src="@Url.Content("~/images/Rule-Based.jpg")" alt="Rule-Based" />
+        <h2>Content Management</h2>
+        <p class="text-justify">
+            Gubergren vulputate vel dolor vero eos rebum sed sit ut ut illum. Et eos dolore ea sit nonumy ipsum voluptua elit labore quis molestie invidunt diam. Diam vero duo at sed ipsum. Dolor sit et elitr eum praesent sadipscing option amet duis ut rebum. Stet sed voluptua takimata justo eos sadipscing eros lorem.
+        </p>
     </div>
-    <div class="small-6 columns text-center">
-        @Html.Placehold(200, 200)
-        @Html.Ipsum().h2(4)
+
+    
+    <div class="small-12 large-4 columns text-center callout panel">
+        <h2>Rule-Based Workflow</h2>
+        <p class="text-justify">
+            Gubergren vulputate vel dolor vero eos rebum sed sit ut ut illum. Et eos dolore ea sit nonumy ipsum voluptua elit labore quis molestie invidunt diam. Diam vero duo at sed ipsum. Dolor sit et elitr eum praesent sadipscing option amet duis ut rebum. Stet sed voluptua takimata justo eos sadipscing eros lorem.
+        </p>
+        <img src="@Url.Content("~/images/xLadder.png")" alt="Rule-Based" />
+    </div>
+
+    <div class="small-12 large-4 columns text-center">
+        <img src="@Url.Content("~/images/Bulb.png")" alt="Rule-Based" />
+        <h2>Custom Development</h2>
+        <p class="text-justify">
+            Gubergren vulputate vel dolor vero eos rebum sed sit ut ut illum. Et eos dolore ea sit nonumy ipsum voluptua elit labore quis molestie invidunt diam. Diam vero duo at sed ipsum. Dolor sit et elitr eum praesent sadipscing option amet duis ut rebum. Stet sed voluptua takimata justo eos sadipscing eros lorem.
+        </p>
     </div>
 </div>
-
-<div class="row large-collapse">
-    <div class="small-6 columns">
-        @Html.Ipsum().p()
-    </div>
-    <div class="small-6 columns">
-        @Html.Ipsum().p()
-    </div>
 </div>
 
 <div class="row large-collapse">
